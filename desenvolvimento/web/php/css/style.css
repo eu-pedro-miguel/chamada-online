@@ -1,0 +1,53 @@
+h1, h2, h3, h4 {
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    box-align: center;
+    font-family: arial;
+    border-collapse: collapse;
+    width: auto;
+}
+
+th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.nr {
+    width: 50px;
+}
+
+.aluno {
+    text-align: left;
+}
+
+.presenca {
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: darkblue;
+}
+
+a:hover {
+    background-color: #ccc;
+}
+
